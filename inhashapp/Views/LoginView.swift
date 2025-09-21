@@ -57,13 +57,43 @@ struct LoginView: View {
                 }
                 
                 VStack(spacing: 0) {
-                    Picker("", selection: animatedTabBinding) {
-                        Text("로그인").tag(0)
-                        Text("회원가입").tag(1)
+                    // Custom Segmented Control for consistent appearance
+                    HStack(spacing: 0) {
+                        Button(action: { animatedTabBinding.wrappedValue = 0 }) {
+                            Text("로그인")
+                                .font(.system(size: 15, weight: .medium))
+                                .foregroundColor(selectedAuthTab == 0 ? .white : Color(.label))
+                                .frame(maxWidth: .infinity)
+                                .padding(.vertical, 8)
+                                .background(
+                                    selectedAuthTab == 0 ?
+                                    AnyView(RoundedRectangle(cornerRadius: 8)
+                                        .fill(Color(.systemGray2))) :
+                                    AnyView(Color.clear)
+                                )
+                        }
+                        .buttonStyle(PlainButtonStyle())
+                        
+                        Button(action: { animatedTabBinding.wrappedValue = 1 }) {
+                            Text("회원가입")
+                                .font(.system(size: 15, weight: .medium))
+                                .foregroundColor(selectedAuthTab == 1 ? .white : Color(.label))
+                                .frame(maxWidth: .infinity)
+                                .padding(.vertical, 8)
+                                .background(
+                                    selectedAuthTab == 1 ?
+                                    AnyView(RoundedRectangle(cornerRadius: 8)
+                                        .fill(Color(.systemGray2))) :
+                                    AnyView(Color.clear)
+                                )
+                        }
+                        .buttonStyle(PlainButtonStyle())
                     }
-                    .pickerStyle(.segmented)
-                    .background(Color(.systemGray5))
-                    .cornerRadius(8)
+                    .padding(2)
+                    .background(
+                        RoundedRectangle(cornerRadius: 10)
+                            .fill(Color(.systemGray5))
+                    )
                 
                     ZStack {
                         if selectedAuthTab == 0 {
@@ -124,9 +154,10 @@ struct LoginView: View {
                 .padding(.bottom, 20)
                 .background(
                     RoundedRectangle(cornerRadius: 24)
-                        .fill(Color(.systemBackground))
-                        .shadow(color: .black.opacity(0.06), radius: 20, x: 0, y: 10)
+                        .fill(Color.white)
+                        .shadow(color: .black.opacity(0.08), radius: 20, x: 0, y: 10)
                 )
+                .colorScheme(.light) // Force light mode for this card
                 .frame(maxWidth: 360)
                 .animation(.interactiveSpring(response: 0.32, dampingFraction: 0.88, blendDuration: 0.2), value: selectedAuthTab)
                 

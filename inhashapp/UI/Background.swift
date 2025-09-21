@@ -1,8 +1,11 @@
 import SwiftUI
 
 struct AppBackground: View {
+    @Environment(\.colorScheme) var colorScheme
+    
     var body: some View {
         ZStack {
+            // Always use light background regardless of system setting
             LinearGradient(
                 gradient: Gradient(stops: [
                     .init(color: Color(red: 238/255, green: 242/255, blue: 248/255), location: 0.0),
