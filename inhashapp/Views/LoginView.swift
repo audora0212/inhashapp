@@ -58,7 +58,7 @@ struct LoginView: View {
                 
                 VStack(spacing: 0) {
                     Picker("", selection: animatedTabBinding) {
-                        Text("로그인123").tag(0)
+                        Text("로그인").tag(0)
                         Text("회원가입").tag(1)
                     }
                     .pickerStyle(.segmented)

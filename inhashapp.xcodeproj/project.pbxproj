@@ -23,10 +23,47 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXBuildFile section */
+        AAAAA1012E80000000000001 /* inhashappApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAAAA0012E80000000000001 /* inhashappApp.swift */; };
+        AAAAA1022E80000000000001 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAAAA0022E80000000000001 /* Item.swift */; };
+        AAAAA1032E80000000000001 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAAAA0032E80000000000001 /* Models.swift */; };
+        AAAAA1042E80000000000001 /* Stores.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAAAA0042E80000000000001 /* Stores.swift */; };
+        AAAAA1052E80000000000001 /* AuthStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAAAA0052E80000000000001 /* AuthStore.swift */; };
+        AAAAA1062E80000000000001 /* Background.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAAAA0062E80000000000001 /* Background.swift */; };
+        AAAAA1072E80000000000001 /* Components.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAAAA0072E80000000000001 /* Components.swift */; };
+        AAAAA1082E80000000000001 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAAAA0082E80000000000001 /* ContentView.swift */; };
+        AAAAA1092E80000000000001 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAAAA0092E80000000000001 /* HomeView.swift */; };
+        AAAAA10A2E80000000000001 /* CalendarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAAAA00A2E80000000000001 /* CalendarView.swift */; };
+        AAAAA10B2E80000000000001 /* SummaryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAAAA00B2E80000000000001 /* SummaryView.swift */; };
+        AAAAA10C2E80000000000001 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAAAA00C2E80000000000001 /* SettingsView.swift */; };
+        AAAAA10D2E80000000000001 /* LmsLinkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAAAA00D2E80000000000001 /* LmsLinkView.swift */; };
+        AAAAA10E2E80000000000001 /* LmsLoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAAAA00E2E80000000000001 /* LmsLoadingView.swift */; };
+        AAAAA10F2E80000000000001 /* DataLoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAAAA00F2E80000000000001 /* DataLoadingView.swift */; };
+        AAAAA1102E80000000000001 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAAAA0102E80000000000001 /* LoginView.swift */; };
+        AAAAA1112E80000000000001 /* Previews.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAAAA0112E80000000000001 /* Previews.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		307689352E7FA5FE001E55DD /* inhashapp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = inhashapp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		307689442E7FA600001E55DD /* inhashappTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = inhashappTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3076894E2E7FA600001E55DD /* inhashappUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = inhashappUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+        AAAAA0012E80000000000001 /* inhashappApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = inhashapp/inhashappApp.swift; sourceTree = SOURCE_ROOT; };
+        AAAAA0022E80000000000001 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = inhashapp/Item.swift; sourceTree = SOURCE_ROOT; };
+        AAAAA0032E80000000000001 /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = inhashapp/Models/Models.swift; sourceTree = SOURCE_ROOT; };
+        AAAAA0042E80000000000001 /* Stores.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = inhashapp/Stores/Stores.swift; sourceTree = SOURCE_ROOT; };
+        AAAAA0052E80000000000001 /* AuthStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = inhashapp/Stores/AuthStore.swift; sourceTree = SOURCE_ROOT; };
+        AAAAA0062E80000000000001 /* Background.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = inhashapp/UI/Background.swift; sourceTree = SOURCE_ROOT; };
+        AAAAA0072E80000000000001 /* Components.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = inhashapp/UI/Components.swift; sourceTree = SOURCE_ROOT; };
+        AAAAA0082E80000000000001 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = inhashapp/Views/ContentView.swift; sourceTree = SOURCE_ROOT; };
+        AAAAA0092E80000000000001 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = inhashapp/Views/HomeView.swift; sourceTree = SOURCE_ROOT; };
+        AAAAA00A2E80000000000001 /* CalendarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = inhashapp/Views/CalendarView.swift; sourceTree = SOURCE_ROOT; };
+        AAAAA00B2E80000000000001 /* SummaryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = inhashapp/Views/SummaryView.swift; sourceTree = SOURCE_ROOT; };
+        AAAAA00C2E80000000000001 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = inhashapp/Views/SettingsView.swift; sourceTree = SOURCE_ROOT; };
+        AAAAA00D2E80000000000001 /* LmsLinkView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = inhashapp/Views/LmsLinkView.swift; sourceTree = SOURCE_ROOT; };
+        AAAAA00E2E80000000000001 /* LmsLoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = inhashapp/Views/LmsLoadingView.swift; sourceTree = SOURCE_ROOT; };
+        AAAAA00F2E80000000000001 /* DataLoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = inhashapp/Views/DataLoadingView.swift; sourceTree = SOURCE_ROOT; };
+        AAAAA0102E80000000000001 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = inhashapp/Views/LoginView.swift; sourceTree = SOURCE_ROOT; };
+        AAAAA0112E80000000000001 /* Previews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = inhashapp/Previews/Previews.swift; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -79,6 +116,7 @@
 				307689472E7FA600001E55DD /* inhashappTests */,
 				307689512E7FA600001E55DD /* inhashappUITests */,
 				307689362E7FA5FE001E55DD /* Products */,
+                AAAAA0202E80000000000001 /* Sources */,
 			);
 			sourceTree = "<group>";
 		};
@@ -93,6 +131,33 @@
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
+
+/* Begin PBXGroup section (added) */
+        AAAAA0202E80000000000001 /* Sources */ = {
+            isa = PBXGroup;
+            children = (
+                AAAAA0012E80000000000001 /* inhashappApp.swift */,
+                AAAAA0022E80000000000001 /* Item.swift */,
+                AAAAA0032E80000000000001 /* Models.swift */,
+                AAAAA0042E80000000000001 /* Stores.swift */,
+                AAAAA0052E80000000000001 /* AuthStore.swift */,
+                AAAAA0062E80000000000001 /* Background.swift */,
+                AAAAA0072E80000000000001 /* Components.swift */,
+                AAAAA0082E80000000000001 /* ContentView.swift */,
+                AAAAA0092E80000000000001 /* HomeView.swift */,
+                AAAAA00A2E80000000000001 /* CalendarView.swift */,
+                AAAAA00B2E80000000000001 /* SummaryView.swift */,
+                AAAAA00C2E80000000000001 /* SettingsView.swift */,
+                AAAAA00D2E80000000000001 /* LmsLinkView.swift */,
+                AAAAA00E2E80000000000001 /* LmsLoadingView.swift */,
+                AAAAA00F2E80000000000001 /* DataLoadingView.swift */,
+                AAAAA0102E80000000000001 /* LoginView.swift */,
+                AAAAA0112E80000000000001 /* Previews.swift */,
+            );
+            name = Sources;
+            sourceTree = "<group>";
+        };
+/* End PBXGroup section (added) */
 
 /* Begin PBXNativeTarget section */
 		307689342E7FA5FE001E55DD /* inhashapp */ = {
@@ -236,6 +301,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+                AAAAA1012E80000000000001 /* inhashappApp.swift in Sources */,
+                AAAAA1022E80000000000001 /* Item.swift in Sources */,
+                AAAAA1032E80000000000001 /* Models.swift in Sources */,
+                AAAAA1042E80000000000001 /* Stores.swift in Sources */,
+                AAAAA1052E80000000000001 /* AuthStore.swift in Sources */,
+                AAAAA1062E80000000000001 /* Background.swift in Sources */,
+                AAAAA1072E80000000000001 /* Components.swift in Sources */,
+                AAAAA1082E80000000000001 /* ContentView.swift in Sources */,
+                AAAAA1092E80000000000001 /* HomeView.swift in Sources */,
+                AAAAA10A2E80000000000001 /* CalendarView.swift in Sources */,
+                AAAAA10B2E80000000000001 /* SummaryView.swift in Sources */,
+                AAAAA10C2E80000000000001 /* SettingsView.swift in Sources */,
+                AAAAA10D2E80000000000001 /* LmsLinkView.swift in Sources */,
+                AAAAA10E2E80000000000001 /* LmsLoadingView.swift in Sources */,
+                AAAAA10F2E80000000000001 /* DataLoadingView.swift in Sources */,
+                AAAAA1102E80000000000001 /* LoginView.swift in Sources */,
+                AAAAA1112E80000000000001 /* Previews.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -398,7 +480,7 @@
 				INFOPLIST_KEY_CFBundleIconName = AppIcon;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 15;
+				CURRENT_PROJECT_VERSION = 16;
 				DEVELOPMENT_TEAM = F9BCX5LCAW;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -433,7 +515,7 @@
 				INFOPLIST_KEY_CFBundleIconName = AppIcon;
 				CODE_SIGN_IDENTITY = "Apple Distribution";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 15;
+				CURRENT_PROJECT_VERSION = 16;
 				DEVELOPMENT_TEAM = F9BCX5LCAW;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
