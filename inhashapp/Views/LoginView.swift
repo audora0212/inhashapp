@@ -62,6 +62,8 @@ struct LoginView: View {
                         Text("회원가입").tag(1)
                     }
                     .pickerStyle(.segmented)
+                    .background(Color(.systemGray5))
+                    .cornerRadius(8)
                 
                     ZStack {
                         if selectedAuthTab == 0 {
@@ -119,10 +121,10 @@ struct LoginView: View {
                 }
                 .padding(.top, 20)
                 .padding(.horizontal, 20)
-                .padding(.bottom, 0)
+                .padding(.bottom, 20)
                 .background(
                     RoundedRectangle(cornerRadius: 24)
-                        .fill(Color.white)
+                        .fill(Color(.systemBackground))
                         .shadow(color: .black.opacity(0.06), radius: 20, x: 0, y: 10)
                 )
                 .frame(maxWidth: 360)
