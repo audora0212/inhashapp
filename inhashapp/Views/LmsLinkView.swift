@@ -58,10 +58,10 @@ struct LmsLinkView: View {
                     Button(action: testSubmit) {
                         ZStack {
                             RoundedRectangle(cornerRadius: 12)
-                                .fill(Color(.systemGray4))
+                                .fill(Color.white)
                                 .overlay(
                                     RoundedRectangle(cornerRadius: 12)
-                                        .stroke(Color.white.opacity(0.35), lineWidth: 1)
+                                        .stroke(Color.black.opacity(0.06), lineWidth: 1)
                                 )
                             HStack(spacing: 8) {
                                 if testLoading { ProgressView().tint(.primary).scaleEffect(0.9) }
@@ -72,6 +72,7 @@ struct LmsLinkView: View {
                             .padding(.horizontal, 8)
                         }
                         .frame(height: 48)
+                        .shadow(color: Color.black.opacity(0.12), radius: 16, x: 0, y: 8)
                     }
                     .buttonStyle(LightenOnPressStyle(cornerRadius: 12, overlayOpacity: 0.12))
                     .disabled(testLoading || username.isEmpty || password.isEmpty)
@@ -84,6 +85,7 @@ struct LmsLinkView: View {
                     .disabled(isLmsDisabled)
                     .opacity(isLmsDisabled ? 0.55 : 1.0)
                     .saturation(isLmsDisabled ? 0.7 : 1.0)
+                    .shadow(color: Color.black.opacity(0.12), radius: 16, x: 0, y: 8)
                     
                     HStack(spacing: 6) {
                         Text("연결에 문제가 있나요?")

@@ -1,118 +1,118 @@
-2025-09-21 12:48:24 +0000 [MT] Initial pipeline context: <IDEDistributionProcessingPipelineContext: 0xbb9474600; archive(resolved)="<IDEArchive: 0xbbbb23410>", distributionTask(resolved)="2", distributionDestination(resolved)="1", distributionMethod(resolved)="<IDEDistributionMethodiOSAppStoreDistribution: 0xbbb8c7a50>", team(resolved)="<IDEProvisioningBasicTeam: 0xbb9b2a660; teamID='F9BCX5LCAW', teamName='(null)'>">
+2025-09-22 12:59:30 +0000 [MT] Initial pipeline context: <IDEDistributionProcessingPipelineContext: 0x8dbd5d800; archive(resolved)="<IDEArchive: 0x8dbc43410>", distributionTask(resolved)="2", distributionDestination(resolved)="1", distributionMethod(resolved)="<IDEDistributionMethodiOSAppStoreDistribution: 0x8da553e50>", team(resolved)="<IDEProvisioningBasicTeam: 0x8d9b64700; teamID='F9BCX5LCAW', teamName='(null)'>">
 	Chain (15, self inclusive):
-	<IDEDistributionProcessingPipelineContext: 0xbb9474600; archive = "<IDEArchive: 0xbbbb23410>", distributionMethod="<IDEDistributionMethodiOSAppStoreDistribution: 0xbbb8c7a50>", team="<IDEProvisioningBasicTeam: 0xbb9b2a660; teamID='F9BCX5LCAW', teamName='(null)'>">
-	<IDEDistributionProcessingPipelineContext: 0xbb9474900; archive = "<IDEArchive: 0xbbbb23410>", distributionMethod="<IDEDistributionMethodiOSAppStoreDistribution: 0xbbb8c7a50>", team="<IDEProvisioningBasicTeam: 0xbb9b2a660; teamID='F9BCX5LCAW', teamName='(null)'>">
-	<IDEDistributionContext: 0xbbbb9ed00; archive = "<IDEArchive: 0xbbbb23410>", distributionMethod="<IDEDistributionMethodiOSAppStoreDistribution: 0xbbb8c7a50>", team="<IDEProvisioningBasicTeam: 0xbb9b2a660; teamID='F9BCX5LCAW', teamName='(null)'>">
-	<IDEDistributionContext: 0xbbbb9ea80; archive = "<IDEArchive: 0xbbbb23410>", distributionMethod="<IDEDistributionMethodiOSAppStoreDistribution: 0xbbb8c7a50>", team="<IDEProvisioningBasicTeam: 0xbb9b2a660; teamID='F9BCX5LCAW', teamName='(null)'>">
-	<IDEDistributionContext: 0xbbbb9e800; archive = "<IDEArchive: 0xbbbb23410>", distributionMethod="<IDEDistributionMethodiOSAppStoreDistribution: 0xbbb8c7a50>", team="<IDEProvisioningBasicTeam: 0xbb9b2a660; teamID='F9BCX5LCAW', teamName='(null)'>">
-	<IDEDistributionContext: 0xbbbb9e580; archive = "<IDEArchive: 0xbbbb23410>", distributionMethod="<IDEDistributionMethodiOSAppStoreDistribution: 0xbbb8c7a50>", team="<IDEProvisioningBasicTeam: 0xbb9b2a660; teamID='F9BCX5LCAW', teamName='(null)'>">
-	<IDEDistributionContext: 0xbbbb9e300; archive = "<IDEArchive: 0xbbbb23410>", distributionMethod="<IDEDistributionMethodiOSAppStoreDistribution: 0xbbb8c7a50>", team="<IDEProvisioningBasicTeam: 0xbb9b2a660; teamID='F9BCX5LCAW', teamName='(null)'>">
-	<IDEDistributionContext: 0xbbbb9e080; archive = "<IDEArchive: 0xbbbb23410>", distributionMethod="<IDEDistributionMethodiOSAppStoreDistribution: 0xbbb8c7a50>", team="<IDEProvisioningBasicTeam: 0xbb9b2a660; teamID='F9BCX5LCAW', teamName='(null)'>">
-	<IDEDistributionContext: 0xbbbb9de00; archive = "<IDEArchive: 0xbbbb23410>", distributionMethod="<IDEDistributionMethodiOSAppStoreDistribution: 0xbbb8c7a50>", team="<IDEProvisioningBasicTeam: 0xbb9b2a660; teamID='F9BCX5LCAW', teamName='(null)'>">
-	<IDEDistributionContext: 0xbbbb9cf00; archive = "<IDEArchive: 0xbbbb23410>", distributionMethod="<IDEDistributionMethodiOSAppStoreDistribution: 0xbbb8c7a50>", team="<IDEProvisioningBasicTeam: 0xbb9b2a660; teamID='F9BCX5LCAW', teamName='(null)'>">
-	<IDEDistributionContext: 0xbbbb9cc80; archive = "<IDEArchive: 0xbbbb23410>", distributionMethod="<IDEDistributionMethodiOSAppStoreDistribution: 0xbbb8c7a50>", team="<IDEProvisioningBasicTeam: 0xbb9b2a660; teamID='F9BCX5LCAW', teamName='(null)'>">
-	<IDEDistributionContext: 0xbbbb9ca00; archive = "<IDEArchive: 0xbbbb23410>", distributionMethod="<IDEDistributionMethodiOSAppStoreDistribution: 0xbbb8c7a50>", team="<IDEProvisioningBasicTeam: 0xbb9b2a660; teamID='F9BCX5LCAW', teamName='(null)'>">
-	<IDEDistributionContext: 0xbbbb9c780; archive = "<IDEArchive: 0xbbbb23410>", distributionMethod="<IDEDistributionMethodiOSAppStoreDistribution: 0xbbb8c7a50>", team="(null)">
-	<IDEDistributionContext: 0xbbbb9c000; archive = "<IDEArchive: 0xbbbb23410>", distributionMethod="<IDEDistributionMethodiOSAppStoreDistribution: 0xbbb8c7a50>", team="(null)">
-	<IDEDistributionContext: 0x10133d750; archive = "<IDEArchive: 0xbbbb23410>", distributionMethod="(null)", team="(null)">
-</IDEDistributionProcessingPipelineContext: 0xbb9474600>
-2025-09-21 12:48:24 +0000 [MT] Processing step: IDEDistributionCreateDestRootStep
-2025-09-21 12:48:24 +0000 [MT] Processing step: IDEDistributionCopyItemStep
-2025-09-21 12:48:24 +0000 [MT] Running /usr/bin/ditto '-V' '/Users/choeyeongchan/Desktop/inhashapp/build/inhashapp.xcarchive/Products/Applications/inhashapp.app' '/var/folders/vd/zfc17cps2kjg71_vpm03j6bw0000gn/T/XcodeDistPipeline.~~~oqnY7Z/Root/Payload/inhashapp.app'
-2025-09-21 12:48:24 +0000  >>> Copying /Users/choeyeongchan/Desktop/inhashapp/build/inhashapp.xcarchive/Products/Applications/inhashapp.app 
-2025-09-21 12:48:24 +0000  copying file ./AppIcon60x60@2x.png ... 
-2025-09-21 12:48:24 +0000  347 bytes for ./AppIcon60x60@2x.png
-2025-09-21 12:48:24 +0000  copying file ./inhashapp ... 
-2025-09-21 12:48:24 +0000  386504 bytes for ./inhashapp
-2025-09-21 12:48:24 +0000  copying file ./Assets.car ... 
-2025-09-21 12:48:24 +0000  39880 bytes for ./Assets.car
-2025-09-21 12:48:24 +0000  copying file ./AppIcon76x76@2x~ipad.png ... 
-2025-09-21 12:48:24 +0000  439 bytes for ./AppIcon76x76@2x~ipad.png
-2025-09-21 12:48:24 +0000  copying file ./Info.plist ... 
-2025-09-21 12:48:24 +0000  1424 bytes for ./Info.plist
-2025-09-21 12:48:24 +0000  copying file ./PkgInfo ... 
-2025-09-21 12:48:24 +0000  8 bytes for ./PkgInfo
-2025-09-21 12:48:24 +0000 [MT] /usr/bin/ditto exited with 0
-2025-09-21 12:48:24 +0000 [MT] Processing step: IDEDistributionEmbedProfileStep
-2025-09-21 12:48:24 +0000 [MT] Processing step: IDEDistributionInfoPlistStep
-2025-09-21 12:48:24 +0000 [MT] Skipping setting DTXcodeBuildDistribution because toolsBuildVersionName was nil.
-2025-09-21 12:48:24 +0000 [MT] Processing step: IDEDistributionItemRemovalStep
-2025-09-21 12:48:24 +0000 [MT] Processing step: IDEDistributionAppThinningPlistStep
-2025-09-21 12:48:24 +0000 [MT] Skipping step: IDEDistributionAppThinningPlistStep because it said so
-2025-09-21 12:48:24 +0000 [MT] Processing step: IDEDistributionSymbolsStep
-2025-09-21 12:48:24 +0000 [MT] Writing /var/folders/vd/zfc17cps2kjg71_vpm03j6bw0000gn/T/XcodeDistPipeline.~~~oqnY7Z/Symbols/FFF2CEC9-2BB1-39BE-83A1-B2DF0B93B600.symbols
-2025-09-21 12:48:24 +0000 [MT] Processing step: IDEDistributionCopyAppleProvidedContentStep
-2025-09-21 12:48:24 +0000 [MT] Processing step: IDEDistributionAppThinningStep
-2025-09-21 12:48:24 +0000 [MT] Skipping step: IDEDistributionAppThinningStep because it said so
-2025-09-21 12:48:24 +0000 [MT] Processing step: IDEDistributionArchThinningStep
-2025-09-21 12:48:24 +0000 [MT] Archs to thin for item /Users/choeyeongchan/Desktop/inhashapp/build/inhashapp.xcarchive/Products/Applications/inhashapp.app are []
-2025-09-21 12:48:24 +0000 [MT] Processing step: IDEDistributionODRStep
-2025-09-21 12:48:24 +0000 [MT] Processing step: IDEDistributionStripXattrsStep
-2025-09-21 12:48:24 +0000 [MT] Skipping stripping extended attributes because the codesign step will strip them.
-2025-09-21 12:48:24 +0000 [MT] Processing step: IDEDistributionCodesignStep
-2025-09-21 12:48:24 +0000 [MT] Entitlements for <IDEDistributionItem: 0xbb9addf20; bundleID='Audora.inhashapp', path='<DVTFilePath:0xbb9adc000:'/Users/choeyeongchan/Desktop/inhashapp/build/inhashapp.xcarchive/Products/Applications/inhashapp.app'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0xbb9addf80; isSigned='0', isAdHocSigned='0', signingCertificate='(null)', entitlements='(null)', teamID='(null)', identifier='(null)', executablePath='(null)', hardenedRuntime='0'>'>: {
+	<IDEDistributionProcessingPipelineContext: 0x8dbd5d800; archive = "<IDEArchive: 0x8dbc43410>", distributionMethod="<IDEDistributionMethodiOSAppStoreDistribution: 0x8da553e50>", team="<IDEProvisioningBasicTeam: 0x8d9b64700; teamID='F9BCX5LCAW', teamName='(null)'>">
+	<IDEDistributionProcessingPipelineContext: 0x8dbd5d500; archive = "<IDEArchive: 0x8dbc43410>", distributionMethod="<IDEDistributionMethodiOSAppStoreDistribution: 0x8da553e50>", team="<IDEProvisioningBasicTeam: 0x8d9b64700; teamID='F9BCX5LCAW', teamName='(null)'>">
+	<IDEDistributionContext: 0x8dbcd6d00; archive = "<IDEArchive: 0x8dbc43410>", distributionMethod="<IDEDistributionMethodiOSAppStoreDistribution: 0x8da553e50>", team="<IDEProvisioningBasicTeam: 0x8d9b64700; teamID='F9BCX5LCAW', teamName='(null)'>">
+	<IDEDistributionContext: 0x8dbcd6a80; archive = "<IDEArchive: 0x8dbc43410>", distributionMethod="<IDEDistributionMethodiOSAppStoreDistribution: 0x8da553e50>", team="<IDEProvisioningBasicTeam: 0x8d9b64700; teamID='F9BCX5LCAW', teamName='(null)'>">
+	<IDEDistributionContext: 0x8dbcd6800; archive = "<IDEArchive: 0x8dbc43410>", distributionMethod="<IDEDistributionMethodiOSAppStoreDistribution: 0x8da553e50>", team="<IDEProvisioningBasicTeam: 0x8d9b64700; teamID='F9BCX5LCAW', teamName='(null)'>">
+	<IDEDistributionContext: 0x8dbcd6580; archive = "<IDEArchive: 0x8dbc43410>", distributionMethod="<IDEDistributionMethodiOSAppStoreDistribution: 0x8da553e50>", team="<IDEProvisioningBasicTeam: 0x8d9b64700; teamID='F9BCX5LCAW', teamName='(null)'>">
+	<IDEDistributionContext: 0x8dbcd6300; archive = "<IDEArchive: 0x8dbc43410>", distributionMethod="<IDEDistributionMethodiOSAppStoreDistribution: 0x8da553e50>", team="<IDEProvisioningBasicTeam: 0x8d9b64700; teamID='F9BCX5LCAW', teamName='(null)'>">
+	<IDEDistributionContext: 0x8dbcd6080; archive = "<IDEArchive: 0x8dbc43410>", distributionMethod="<IDEDistributionMethodiOSAppStoreDistribution: 0x8da553e50>", team="<IDEProvisioningBasicTeam: 0x8d9b64700; teamID='F9BCX5LCAW', teamName='(null)'>">
+	<IDEDistributionContext: 0x8dbcd5e00; archive = "<IDEArchive: 0x8dbc43410>", distributionMethod="<IDEDistributionMethodiOSAppStoreDistribution: 0x8da553e50>", team="<IDEProvisioningBasicTeam: 0x8d9b64700; teamID='F9BCX5LCAW', teamName='(null)'>">
+	<IDEDistributionContext: 0x8dbcd4f00; archive = "<IDEArchive: 0x8dbc43410>", distributionMethod="<IDEDistributionMethodiOSAppStoreDistribution: 0x8da553e50>", team="<IDEProvisioningBasicTeam: 0x8d9b64700; teamID='F9BCX5LCAW', teamName='(null)'>">
+	<IDEDistributionContext: 0x8dbcd4c80; archive = "<IDEArchive: 0x8dbc43410>", distributionMethod="<IDEDistributionMethodiOSAppStoreDistribution: 0x8da553e50>", team="<IDEProvisioningBasicTeam: 0x8d9b64700; teamID='F9BCX5LCAW', teamName='(null)'>">
+	<IDEDistributionContext: 0x8dbcd4a00; archive = "<IDEArchive: 0x8dbc43410>", distributionMethod="<IDEDistributionMethodiOSAppStoreDistribution: 0x8da553e50>", team="<IDEProvisioningBasicTeam: 0x8d9b64700; teamID='F9BCX5LCAW', teamName='(null)'>">
+	<IDEDistributionContext: 0x8dbcd4780; archive = "<IDEArchive: 0x8dbc43410>", distributionMethod="<IDEDistributionMethodiOSAppStoreDistribution: 0x8da553e50>", team="(null)">
+	<IDEDistributionContext: 0x8dbcd4000; archive = "<IDEArchive: 0x8dbc43410>", distributionMethod="<IDEDistributionMethodiOSAppStoreDistribution: 0x8da553e50>", team="(null)">
+	<IDEDistributionContext: 0x10113a6d0; archive = "<IDEArchive: 0x8dbc43410>", distributionMethod="(null)", team="(null)">
+</IDEDistributionProcessingPipelineContext: 0x8dbd5d800>
+2025-09-22 12:59:30 +0000 [MT] Processing step: IDEDistributionCreateDestRootStep
+2025-09-22 12:59:30 +0000 [MT] Processing step: IDEDistributionCopyItemStep
+2025-09-22 12:59:30 +0000 [MT] Running /usr/bin/ditto '-V' '/Users/choeyeongchan/Desktop/inhashapp/build/inhashapp.xcarchive/Products/Applications/inhashapp.app' '/var/folders/vd/zfc17cps2kjg71_vpm03j6bw0000gn/T/XcodeDistPipeline.~~~y3bnti/Root/Payload/inhashapp.app'
+2025-09-22 12:59:30 +0000  >>> Copying /Users/choeyeongchan/Desktop/inhashapp/build/inhashapp.xcarchive/Products/Applications/inhashapp.app 
+2025-09-22 12:59:30 +0000  copying file ./AppIcon60x60@2x.png ... 
+2025-09-22 12:59:30 +0000  5525 bytes for ./AppIcon60x60@2x.png
+2025-09-22 12:59:30 +0000  copying file ./inhashapp ... 
+2025-09-22 12:59:30 +0000  403240 bytes for ./inhashapp
+2025-09-22 12:59:30 +0000  copying file ./Assets.car ... 
+2025-09-22 12:59:30 +0000  219592 bytes for ./Assets.car
+2025-09-22 12:59:30 +0000  copying file ./AppIcon76x76@2x~ipad.png ... 
+2025-09-22 12:59:30 +0000  7057 bytes for ./AppIcon76x76@2x~ipad.png
+2025-09-22 12:59:30 +0000  copying file ./Info.plist ... 
+2025-09-22 12:59:30 +0000  1424 bytes for ./Info.plist
+2025-09-22 12:59:30 +0000  copying file ./PkgInfo ... 
+2025-09-22 12:59:30 +0000  8 bytes for ./PkgInfo
+2025-09-22 12:59:30 +0000 [MT] /usr/bin/ditto exited with 0
+2025-09-22 12:59:30 +0000 [MT] Processing step: IDEDistributionEmbedProfileStep
+2025-09-22 12:59:30 +0000 [MT] Processing step: IDEDistributionInfoPlistStep
+2025-09-22 12:59:30 +0000 [MT] Skipping setting DTXcodeBuildDistribution because toolsBuildVersionName was nil.
+2025-09-22 12:59:30 +0000 [MT] Processing step: IDEDistributionItemRemovalStep
+2025-09-22 12:59:30 +0000 [MT] Processing step: IDEDistributionAppThinningPlistStep
+2025-09-22 12:59:30 +0000 [MT] Skipping step: IDEDistributionAppThinningPlistStep because it said so
+2025-09-22 12:59:30 +0000 [MT] Processing step: IDEDistributionSymbolsStep
+2025-09-22 12:59:30 +0000 [MT] Writing /var/folders/vd/zfc17cps2kjg71_vpm03j6bw0000gn/T/XcodeDistPipeline.~~~y3bnti/Symbols/287C5F8A-5986-32C6-9DF3-BFAF7F2AFAAF.symbols
+2025-09-22 12:59:30 +0000 [MT] Processing step: IDEDistributionCopyAppleProvidedContentStep
+2025-09-22 12:59:30 +0000 [MT] Processing step: IDEDistributionAppThinningStep
+2025-09-22 12:59:30 +0000 [MT] Skipping step: IDEDistributionAppThinningStep because it said so
+2025-09-22 12:59:30 +0000 [MT] Processing step: IDEDistributionArchThinningStep
+2025-09-22 12:59:30 +0000 [MT] Archs to thin for item /Users/choeyeongchan/Desktop/inhashapp/build/inhashapp.xcarchive/Products/Applications/inhashapp.app are []
+2025-09-22 12:59:30 +0000 [MT] Processing step: IDEDistributionODRStep
+2025-09-22 12:59:30 +0000 [MT] Processing step: IDEDistributionStripXattrsStep
+2025-09-22 12:59:30 +0000 [MT] Skipping stripping extended attributes because the codesign step will strip them.
+2025-09-22 12:59:30 +0000 [MT] Processing step: IDEDistributionCodesignStep
+2025-09-22 12:59:30 +0000 [MT] Entitlements for <IDEDistributionItem: 0x8dbcae100; bundleID='Audora.inhashapp', path='<DVTFilePath:0x8dbcac180:'/Users/choeyeongchan/Desktop/inhashapp/build/inhashapp.xcarchive/Products/Applications/inhashapp.app'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x8dbcae160; isSigned='0', isAdHocSigned='0', signingCertificate='(null)', entitlements='(null)', teamID='(null)', identifier='(null)', executablePath='(null)', hardenedRuntime='0'>'>: {
     "application-identifier" = "F9BCX5LCAW.Audora.inhashapp";
     "beta-reports-active" = 1;
     "com.apple.developer.team-identifier" = F9BCX5LCAW;
     "get-task-allow" = 0;
 }
-2025-09-21 12:48:24 +0000 [MT] Associated App Clip Identifiers Filter: Skipping because "com.apple.developer.associated-appclip-app-identifiers" is not present
-2025-09-21 12:48:24 +0000 [MT] Entitlements for <IDEDistributionItem: 0xbb9addf20; bundleID='Audora.inhashapp', path='<DVTFilePath:0xbb9adc000:'/Users/choeyeongchan/Desktop/inhashapp/build/inhashapp.xcarchive/Products/Applications/inhashapp.app'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0xbb9addf80; isSigned='0', isAdHocSigned='0', signingCertificate='(null)', entitlements='(null)', teamID='(null)', identifier='(null)', executablePath='(null)', hardenedRuntime='0'>'> are: {
+2025-09-22 12:59:30 +0000 [MT] Associated App Clip Identifiers Filter: Skipping because "com.apple.developer.associated-appclip-app-identifiers" is not present
+2025-09-22 12:59:30 +0000 [MT] Entitlements for <IDEDistributionItem: 0x8dbcae100; bundleID='Audora.inhashapp', path='<DVTFilePath:0x8dbcac180:'/Users/choeyeongchan/Desktop/inhashapp/build/inhashapp.xcarchive/Products/Applications/inhashapp.app'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x8dbcae160; isSigned='0', isAdHocSigned='0', signingCertificate='(null)', entitlements='(null)', teamID='(null)', identifier='(null)', executablePath='(null)', hardenedRuntime='0'>'> are: {
     "application-identifier" = "F9BCX5LCAW.Audora.inhashapp";
     "beta-reports-active" = 1;
     "com.apple.developer.team-identifier" = F9BCX5LCAW;
     "get-task-allow" = 0;
 }
-2025-09-21 12:48:24 +0000 [MT] Writing entitlements for <IDEDistributionItem: 0xbb9addf20; bundleID='Audora.inhashapp', path='<DVTFilePath:0xbb9adc000:'/Users/choeyeongchan/Desktop/inhashapp/build/inhashapp.xcarchive/Products/Applications/inhashapp.app'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0xbb9addf80; isSigned='0', isAdHocSigned='0', signingCertificate='(null)', entitlements='(null)', teamID='(null)', identifier='(null)', executablePath='(null)', hardenedRuntime='0'>'> to: /var/folders/vd/zfc17cps2kjg71_vpm03j6bw0000gn/T/XcodeDistPipeline.~~~oqnY7Z/entitlements~~~yL9T52
-2025-09-21 12:48:24 +0000 [MT] invoking codesign: <NSConcreteTask: 0xbbbd4b660; launchPath='/usr/bin/codesign', arguments='(
+2025-09-22 12:59:30 +0000 [MT] Writing entitlements for <IDEDistributionItem: 0x8dbcae100; bundleID='Audora.inhashapp', path='<DVTFilePath:0x8dbcac180:'/Users/choeyeongchan/Desktop/inhashapp/build/inhashapp.xcarchive/Products/Applications/inhashapp.app'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x8dbcae160; isSigned='0', isAdHocSigned='0', signingCertificate='(null)', entitlements='(null)', teamID='(null)', identifier='(null)', executablePath='(null)', hardenedRuntime='0'>'> to: /var/folders/vd/zfc17cps2kjg71_vpm03j6bw0000gn/T/XcodeDistPipeline.~~~y3bnti/entitlements~~~imPgzx
+2025-09-22 12:59:30 +0000 [MT] invoking codesign: <NSConcreteTask: 0x8dbe8f980; launchPath='/usr/bin/codesign', arguments='(
     "-f",
     "-s",
     557B319559BCB21FA90312D8A06FD0208AE137CF,
     "--entitlements",
-    "/var/folders/vd/zfc17cps2kjg71_vpm03j6bw0000gn/T/XcodeDistPipeline.~~~oqnY7Z/entitlements~~~yL9T52",
+    "/var/folders/vd/zfc17cps2kjg71_vpm03j6bw0000gn/T/XcodeDistPipeline.~~~y3bnti/entitlements~~~imPgzx",
     "--preserve-metadata=identifier,flags,runtime,launch-constraints,library-constraints",
     "--generate-entitlement-der",
     "--strip-disallowed-xattrs",
     "-vvv",
-    "/var/folders/vd/zfc17cps2kjg71_vpm03j6bw0000gn/T/XcodeDistPipeline.~~~oqnY7Z/Root/Payload/inhashapp.app"
+    "/var/folders/vd/zfc17cps2kjg71_vpm03j6bw0000gn/T/XcodeDistPipeline.~~~y3bnti/Root/Payload/inhashapp.app"
 )'>
-2025-09-21 12:48:24 +0000 [MT] codesign output: /var/folders/vd/zfc17cps2kjg71_vpm03j6bw0000gn/T/XcodeDistPipeline.~~~oqnY7Z/Root/Payload/inhashapp.app: signed app bundle with Mach-O thin (arm64) [Audora.inhashapp]
-2025-09-21 12:48:24 +0000 [MT] Processing step: IDEDistributionZipODRItemStep
-2025-09-21 12:48:24 +0000 [MT] Skipping step: IDEDistributionZipODRItemStep because it said so
-2025-09-21 12:48:24 +0000 [MT] Processing step: IDEDistributionCreateIPAStep
-2025-09-21 12:48:24 +0000 [MT] Running /usr/bin/rsync '-8aPhhE' '/var/folders/vd/zfc17cps2kjg71_vpm03j6bw0000gn/T/XcodeDistPipeline.~~~oqnY7Z/Symbols' '--link-dest' '/var/folders/vd/zfc17cps2kjg71_vpm03j6bw0000gn/T/XcodeDistPipeline.~~~oqnY7Z' '/var/folders/vd/zfc17cps2kjg71_vpm03j6bw0000gn/T/XcodeDistPipeline.~~~oqnY7Z/Root'
-2025-09-21 12:48:24 +0000  Symbols/
+2025-09-22 12:59:30 +0000 [MT] codesign output: /var/folders/vd/zfc17cps2kjg71_vpm03j6bw0000gn/T/XcodeDistPipeline.~~~y3bnti/Root/Payload/inhashapp.app: signed app bundle with Mach-O thin (arm64) [Audora.inhashapp]
+2025-09-22 12:59:30 +0000 [MT] Processing step: IDEDistributionZipODRItemStep
+2025-09-22 12:59:30 +0000 [MT] Skipping step: IDEDistributionZipODRItemStep because it said so
+2025-09-22 12:59:30 +0000 [MT] Processing step: IDEDistributionCreateIPAStep
+2025-09-22 12:59:30 +0000 [MT] Running /usr/bin/rsync '-8aPhhE' '/var/folders/vd/zfc17cps2kjg71_vpm03j6bw0000gn/T/XcodeDistPipeline.~~~y3bnti/Symbols' '--link-dest' '/var/folders/vd/zfc17cps2kjg71_vpm03j6bw0000gn/T/XcodeDistPipeline.~~~y3bnti' '/var/folders/vd/zfc17cps2kjg71_vpm03j6bw0000gn/T/XcodeDistPipeline.~~~y3bnti/Root'
+2025-09-22 12:59:30 +0000  Symbols/
 ._Symbols
             163 170%    3.24MB/s   00:00:00 (xfer#1, to-check=0/4)
-2025-09-21 12:48:24 +0000  Symbols/FFF2CEC9-2BB1-39BE-83A1-B2DF0B93B600.symbols
-Symbols/._FFF2CEC9-2BB1-39BE-83A1-B2DF0B93B600.symbols
-            163   0%  274.53KB/s   00:00:00 (xfer#2, to-check=2/4)
-2025-09-21 12:48:24 +0000 [MT] /usr/bin/rsync exited with 0
-2025-09-21 12:48:24 +0000 [MT] Running /usr/bin/ditto '-V' '-c' '-k' '--norsrc' '/var/folders/vd/zfc17cps2kjg71_vpm03j6bw0000gn/T/XcodeDistPipeline.~~~oqnY7Z/Root' '/var/folders/vd/zfc17cps2kjg71_vpm03j6bw0000gn/T/XcodeDistPipeline.~~~oqnY7Z/Packages/inhashapp.ipa'
-2025-09-21 12:48:24 +0000  >>> Copying /var/folders/vd/zfc17cps2kjg71_vpm03j6bw0000gn/T/XcodeDistPipeline.~~~oqnY7Z/Root 
-2025-09-21 12:48:24 +0000  copying file ./Payload/inhashapp.app/_CodeSignature/CodeResources ... 
-2025-09-21 12:48:24 +0000  2775 bytes for ./Payload/inhashapp.app/_CodeSignature/CodeResources
-2025-09-21 12:48:24 +0000  copying file ./Payload/inhashapp.app/AppIcon60x60@2x.png ... 
-2025-09-21 12:48:24 +0000  347 bytes for ./Payload/inhashapp.app/AppIcon60x60@2x.png
-2025-09-21 12:48:24 +0000  copying file ./Payload/inhashapp.app/inhashapp ... 
-2025-09-21 12:48:24 +0000  406464 bytes for ./Payload/inhashapp.app/inhashapp
-2025-09-21 12:48:24 +0000  copying file ./Payload/inhashapp.app/Assets.car ... 
-2025-09-21 12:48:24 +0000  39880 bytes for ./Payload/inhashapp.app/Assets.car
-2025-09-21 12:48:24 +0000  copying file ./Payload/inhashapp.app/AppIcon76x76@2x~ipad.png ... 
-2025-09-21 12:48:24 +0000  439 bytes for ./Payload/inhashapp.app/AppIcon76x76@2x~ipad.png
-copying file ./Payload/inhashapp.app/embedded.mobileprovision ... 
-2025-09-21 12:48:24 +0000  16372 bytes for ./Payload/inhashapp.app/embedded.mobileprovision
-2025-09-21 12:48:24 +0000  copying file ./Payload/inhashapp.app/Info.plist ... 
-2025-09-21 12:48:24 +0000  1424 bytes for ./Payload/inhashapp.app/Info.plist
+2025-09-22 12:59:30 +0000  Symbols/287C5F8A-5986-32C6-9DF3-BFAF7F2AFAAF.symbols
+Symbols/._287C5F8A-5986-32C6-9DF3-BFAF7F2AFAAF.symbols
+            163   0%  310.39KB/s   00:00:00 (xfer#2, to-check=2/4)
+2025-09-22 12:59:30 +0000 [MT] /usr/bin/rsync exited with 0
+2025-09-22 12:59:30 +0000 [MT] Running /usr/bin/ditto '-V' '-c' '-k' '--norsrc' '/var/folders/vd/zfc17cps2kjg71_vpm03j6bw0000gn/T/XcodeDistPipeline.~~~y3bnti/Root' '/var/folders/vd/zfc17cps2kjg71_vpm03j6bw0000gn/T/XcodeDistPipeline.~~~y3bnti/Packages/inhashapp.ipa'
+2025-09-22 12:59:30 +0000  >>> Copying /var/folders/vd/zfc17cps2kjg71_vpm03j6bw0000gn/T/XcodeDistPipeline.~~~y3bnti/Root 
+2025-09-22 12:59:30 +0000  copying file ./Payload/inhashapp.app/_CodeSignature/CodeResources ... 
+2025-09-22 12:59:30 +0000  2775 bytes for ./Payload/inhashapp.app/_CodeSignature/CodeResources
+2025-09-22 12:59:30 +0000  copying file ./Payload/inhashapp.app/AppIcon60x60@2x.png ... 
+2025-09-22 12:59:30 +0000  5525 bytes for ./Payload/inhashapp.app/AppIcon60x60@2x.png
+2025-09-22 12:59:30 +0000  copying file ./Payload/inhashapp.app/inhashapp ... 
+2025-09-22 12:59:30 +0000  423232 bytes for ./Payload/inhashapp.app/inhashapp
+2025-09-22 12:59:30 +0000  copying file ./Payload/inhashapp.app/Assets.car ... 
+2025-09-22 12:59:30 +0000  219592 bytes for ./Payload/inhashapp.app/Assets.car
+2025-09-22 12:59:30 +0000  copying file ./Payload/inhashapp.app/AppIcon76x76@2x~ipad.png ... 
+2025-09-22 12:59:30 +0000  7057 bytes for ./Payload/inhashapp.app/AppIcon76x76@2x~ipad.png
+2025-09-22 12:59:30 +0000  copying file ./Payload/inhashapp.app/embedded.mobileprovision ... 
+2025-09-22 12:59:30 +0000  16372 bytes for ./Payload/inhashapp.app/embedded.mobileprovision
+2025-09-22 12:59:30 +0000  copying file ./Payload/inhashapp.app/Info.plist ... 
+2025-09-22 12:59:30 +0000  1424 bytes for ./Payload/inhashapp.app/Info.plist
 copying file ./Payload/inhashapp.app/PkgInfo ... 
 8 bytes for ./Payload/inhashapp.app/PkgInfo
-2025-09-21 12:48:24 +0000  copying file ./Symbols/FFF2CEC9-2BB1-39BE-83A1-B2DF0B93B600.symbols ... 
-2025-09-21 12:48:24 +0000  1107828 bytes for ./Symbols/FFF2CEC9-2BB1-39BE-83A1-B2DF0B93B600.symbols
-2025-09-21 12:48:24 +0000 [MT] /usr/bin/ditto exited with 0
-2025-09-21 12:48:24 +0000 [MT] Processing step: IDEDistributionAppStoreInformationStep
-2025-09-21 12:48:24 +0000 [MT] Running /Applications/Xcode.app/Contents/SharedFrameworks/ContentDeliveryServices.framework/Versions/A/Frameworks/AppStoreService.framework/Support/swinfo '-f' '/var/folders/vd/zfc17cps2kjg71_vpm03j6bw0000gn/T/XcodeDistPipeline.~~~oqnY7Z/Root' '-o' '/var/folders/vd/zfc17cps2kjg71_vpm03j6bw0000gn/T/XcodeDistPipeline.~~~oqnY7Z/swinfo-output.xml' '--plistFormat' 'binary' '--platform' 'ios'
-2025-09-21 12:48:25 +0000 [MT] /Applications/Xcode.app/Contents/SharedFrameworks/ContentDeliveryServices.framework/Versions/A/Frameworks/AppStoreService.framework/Support/swinfo exited with 0
-2025-09-21 12:48:25 +0000 [MT] Processing step: IDEDistributionGenerateProcessedDistributionItems
-2025-09-21 12:48:25 +0000 [MT] IDEDistributionItem init <DVTFilePath:0xbb95c90e0:'/var/folders/vd/zfc17cps2kjg71_vpm03j6bw0000gn/T/XcodeDistPipeline.~~~oqnY7Z/Root/Payload/inhashapp.app'>
-2025-09-21 12:48:25 +0000 [MT] Processing step: IDEDistributionCreateManifestStep
-2025-09-21 12:48:25 +0000 [MT] Skipping step: IDEDistributionCreateManifestStep because it said so
+2025-09-22 12:59:30 +0000  copying file ./Symbols/287C5F8A-5986-32C6-9DF3-BFAF7F2AFAAF.symbols ... 
+2025-09-22 12:59:30 +0000  1110700 bytes for ./Symbols/287C5F8A-5986-32C6-9DF3-BFAF7F2AFAAF.symbols
+2025-09-22 12:59:30 +0000 [MT] /usr/bin/ditto exited with 0
+2025-09-22 12:59:30 +0000 [MT] Processing step: IDEDistributionAppStoreInformationStep
+2025-09-22 12:59:30 +0000 [MT] Running /Applications/Xcode.app/Contents/SharedFrameworks/ContentDeliveryServices.framework/Versions/A/Frameworks/AppStoreService.framework/Support/swinfo '-f' '/var/folders/vd/zfc17cps2kjg71_vpm03j6bw0000gn/T/XcodeDistPipeline.~~~y3bnti/Root' '-o' '/var/folders/vd/zfc17cps2kjg71_vpm03j6bw0000gn/T/XcodeDistPipeline.~~~y3bnti/swinfo-output.xml' '--plistFormat' 'binary' '--platform' 'ios'
+2025-09-22 12:59:31 +0000 [MT] /Applications/Xcode.app/Contents/SharedFrameworks/ContentDeliveryServices.framework/Versions/A/Frameworks/AppStoreService.framework/Support/swinfo exited with 0
+2025-09-22 12:59:31 +0000 [MT] Processing step: IDEDistributionGenerateProcessedDistributionItems
+2025-09-22 12:59:31 +0000 [MT] IDEDistributionItem init <DVTFilePath:0x8dbe89500:'/var/folders/vd/zfc17cps2kjg71_vpm03j6bw0000gn/T/XcodeDistPipeline.~~~y3bnti/Root/Payload/inhashapp.app'>
+2025-09-22 12:59:31 +0000 [MT] Processing step: IDEDistributionCreateManifestStep
+2025-09-22 12:59:31 +0000 [MT] Skipping step: IDEDistributionCreateManifestStep because it said so

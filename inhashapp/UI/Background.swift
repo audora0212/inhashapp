@@ -74,7 +74,7 @@ struct FloatingOrb: View {
                 )
             )
             .frame(width: size, height: size)
-            .blur(radius: 20)
+            .blur(radius: 50)
             .opacity(0.9)
             .scaleEffect(1.0)
             .offset(x: initialOffset.width, y: initialOffset.height)

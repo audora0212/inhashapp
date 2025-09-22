@@ -43,3 +43,11 @@ import SwiftUI
 #Preview("SettingsView") {
     SettingsView()
 }
+
+// 하단 탭(TabView) 미리보기
+#Preview("MainTabs") {
+    let store = ScheduleStore()
+    return MainTabs()
+        .environmentObject(store)
+        .preferredColorScheme(.light)
+}

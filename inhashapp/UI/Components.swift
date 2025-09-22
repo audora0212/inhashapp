@@ -14,15 +14,18 @@ struct IconTextField: View {
             HStack(spacing: 10) {
                 Image(systemName: systemImage)
                     .foregroundColor(.secondary)
+                    .font(.system(size: 14))
                 if isSecure && !showSecure {
                     SecureField(placeholder, text: $text)
                         .textContentType(.password)
+                        .font(.system(size: 15))
                 } else {
                     TextField(placeholder, text: $text)
                         .textContentType(isSecure ? .password : .username)
                         .autocapitalization(.none)
                         .disableAutocorrection(true)
                         .keyboardType(isSecure ? .default : .emailAddress)
+                        .font(.system(size: 15))
                 }
                 if isSecure {
                     Button(action: { showSecure.toggle() }) {
@@ -50,6 +53,7 @@ struct KakaoButton: View {
                     .foregroundColor(.black)
                     .padding(.horizontal, 8)
             }
+            .shadow(color: Color.black.opacity(0.12), radius: 16, x: 0, y: 8)
             .frame(height: 48)
             .frame(maxWidth: .infinity)
         }

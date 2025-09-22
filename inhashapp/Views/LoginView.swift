@@ -73,6 +73,9 @@ struct LoginView: View {
                                 )
                         }
                         .buttonStyle(PlainButtonStyle())
+                        .shadow(color: Color.black.opacity(0.12), radius: 10, x: 0, y: 6)
+                        .scaleEffect(selectedAuthTab == 0 ? 1.0 : 0.98)
+                        .animation(.spring(response: 0.25, dampingFraction: 0.9), value: selectedAuthTab)
                         
                         Button(action: { animatedTabBinding.wrappedValue = 1 }) {
                             Text("회원가입")
@@ -88,6 +91,9 @@ struct LoginView: View {
                                 )
                         }
                         .buttonStyle(PlainButtonStyle())
+                        .shadow(color: Color.black.opacity(0.12), radius: 10, x: 0, y: 6)
+                        .scaleEffect(selectedAuthTab == 1 ? 1.0 : 0.98)
+                        .animation(.spring(response: 0.25, dampingFraction: 0.9), value: selectedAuthTab)
                     }
                     .padding(2)
                     .background(
@@ -106,8 +112,10 @@ struct LoginView: View {
                                     .frame(height: 48)
                                     .buttonStyle(LightenOnPressStyle(cornerRadius: 12, overlayOpacity: 0.12))
                                     .disabled(loading || email.isEmpty || password.isEmpty)
+                                    .shadow(color: Color.black.opacity(0.12), radius: 16, x: 0, y: 8)
                                 KakaoButton { }
                                     .frame(height: 48)
+                                    .shadow(color: Color.black.opacity(0.12), radius: 16, x: 0, y: 8)
                                 HStack {
                                     Button("비밀번호 찾기") {}
                                         .font(.footnote)
@@ -126,7 +134,8 @@ struct LoginView: View {
                                         Button(action: checkEmailDuplicate) {
                                             HStack(spacing: 6) { if emailCheckLoading { ProgressView().scaleEffect(0.6) }; Text("중복확인").font(.footnote) }
                                                 .padding(.vertical, 6).padding(.horizontal, 10)
-                                                .background(Color.black.opacity(0.06)).foregroundColor(.primary).clipShape(Capsule())
+                                        .background(Color.black.opacity(0.06)).foregroundColor(.primary).clipShape(Capsule())
+                                        .shadow(color: Color.black.opacity(0.12), radius: 8, x: 0, y: 4)
                                         }.disabled(signupEmail.isEmpty || emailCheckLoading)
                                     }.padding(.trailing, 8)
                                 }
@@ -137,9 +146,11 @@ struct LoginView: View {
                                 Button(action: submitSignup) { PrimaryButtonLabel(title: signupLoading ? "가입 중..." : "회원가입", loading: signupLoading) }
                                     .frame(height: 48)
                                     .buttonStyle(LightenOnPressStyle(cornerRadius: 12, overlayOpacity: 0.12))
+                                    .shadow(color: Color.black.opacity(0.12), radius: 16, x: 0, y: 8)
                                     .disabled(signupLoading || signupEmail.isEmpty || signupPassword.isEmpty || signupPasswordConfirm.isEmpty || signupPassword != signupPasswordConfirm)
                                 KakaoButton { }
                                     .frame(height: 48)
+                                    .shadow(color: Color.black.opacity(0.12), radius: 16, x: 0, y: 8)
                                 HStack { Button("비밀번호 찾기"){}.font(.footnote).foregroundColor(.secondary); Spacer() }
                             }
                             .frame(maxWidth: .infinity, maxHeight: .infinity, alignment: .top)
